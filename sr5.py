@@ -42,7 +42,7 @@ def glClear():
 
 
 def glClearColor(r, g, b):
-    screen.color = color(r, g, b)
+    screen.clearColor = color(r, g, b)
 
 
 # Recibe parametros entre -1 y 1
